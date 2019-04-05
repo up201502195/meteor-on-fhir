@@ -1,3 +1,7 @@
+//SCRIPT for the conversion of HL7-v2.x to FHIR message.
+//Converts HL7-v2.x PID Segment, to, FHIR Patient Resource(https://www.hl7.org/fhir/patient.html).
+
+
 var date = msg['PID']['PID.7']['PID.7.1'].toString();
 
 var Patient = {};
